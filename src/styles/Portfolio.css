@@ -1,0 +1,60 @@
+.sidebar {
+  transition: all 0.3s ease;
+}
+
+.section-container {
+  min-height: 100vh;
+  padding: 2rem;
+  scroll-margin-top: 80px; /* Ajusta este valor según necesites */
+}
+
+.hero-gradient {
+  background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+}
+
+.skill-card {
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-2px);
+}
+
+.project-card {
+  transition: transform 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+}
+
+.contact-link {
+  transition: color 0.2s ease;
+}
+
+/* Animación para la foto de perfil */
+@keyframes profilePhotoAppear {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.profile-photo {
+  animation: profilePhotoAppear 1s ease-out;
+}
+
+/* Estilos para la navegación activa */
+.nav-link {
+  transition: all 0.3s ease;
+}
+
+.nav-link.active {
+  background-color: #3b82f6;
+  color: white;
+  transform: translateX(8px);
+}
