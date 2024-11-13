@@ -7,7 +7,7 @@ const Projects = () => {
       title: "E-commerce",
       description:
         "Functional website for buying and selling soccer jerseys. It has a Login, Register and a CRUD.",
-      image: "src/assets/proyecto1.jpg", // Asegúrate de tener las imágenes en tu carpeta public
+      image: "/images/proyecto1.jpg", // Asegúrate de tener las imágenes en tu carpeta public
       github: "https://github.com/gonnngonn/tienda-camisetas",
       technologies: [
         "React",
@@ -22,7 +22,7 @@ const Projects = () => {
       title: "Patitas Sin Hogar",
       description:
         "Collaborative project to help shelters with the adoption of animals in San Miguel de Tucumán. It has a CRUD, Contact, and a Transit Home section",
-      image: "src/assets/proyecto2.jpg",
+      image: "/images/proyecto2.jpg",
       github: "https://github.com/gonnngonn/app/tree/main/patitas-app",
       technologies: [
         "React",
