@@ -19,6 +19,7 @@ const AboutMe = () => {
         </p>
         <div className="flex gap-4">
           <a
+            target="_blank"
             href="/cv/CV-profesionalN.pdf"
             className="flex items-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors"
           >
@@ -26,7 +27,8 @@ const AboutMe = () => {
             CV en Español
           </a>
           <a
-            href="/cv/CV-professionalNI.pdf"
+            target="_blank"
+            href="/cv/CV-professionalNI2.pdf"
             className="flex items-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700 transition-colors"
           >
             <Download size={20} />
