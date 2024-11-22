@@ -11,6 +11,13 @@ const Education = () => {
       description: "Graduated",
     },
     {
+      degree: "Systems Engineering",
+      institution:
+        "Universidad Tecnologica Nacional - Facultad Regional Tucumán",
+      period: "2021 - 2023",
+      description: "Not Completed",
+    },
+    {
       degree: "English Teacher",
       institution: "Instituto Cultural Argentino de Lenguas Vivas - Anglo",
       period: "2021 - 2023",
