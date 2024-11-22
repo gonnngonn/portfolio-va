@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import Sidebar from "./components/SideBar.jsx";
+import Sidebar from "./components/Sidebar.jsx";
 import MobileMenuButton from "./components/MobileMenuButton.jsx";
 import Hero from "./components/Hero.jsx";
 import AboutMe from "./components/AboutMe.jsx";
 import Experience from "./components/Experience.jsx";
 import Skills from "./components/Skills.jsx";
-import Projects from "./components/Proyects.jsx";
+import Projects from "./components/Projects.jsx";
 import Contact from "./components/Contact.jsx";
 import Education from "./components/Education.jsx";
 import "./styles/Portfolio.css";

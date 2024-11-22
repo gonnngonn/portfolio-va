@@ -8,10 +8,10 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "NODE_ENV=production node ./node_modules/vite/bin/vite.js build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "start": "npm run build && vite preview --host"
+    "start": "NODE_ENV=production node ./node_modules/vite/bin/vite.js preview --host --port $PORT"
   },
   "dependencies": {
     "lucide-react": "^0.453.0",

@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: portfolio-va
+    buildCommand: npm install && npm exec vite build
+    staticPublishPath: ./dist
+    envVars:
+      - key: NODE_VERSION
+        value: 20.12.2
