@@ -14,6 +14,7 @@ const Skills = () => {
         "Express",
         "MongoDB",
         "SQL",
+        "AWS",
         "RESTful APIs",
         "MySQL Server",
       ],

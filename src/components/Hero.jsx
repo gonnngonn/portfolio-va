@@ -18,7 +18,7 @@ const Hero = () => {
         <h1 className="text-6xl font-bold mb-4">
           Gonzalo Benjamín Albornoz Gamboa
         </h1>
-        <p className="text-2xl">Software Developer, 21 Years</p>
+        <p className="text-2xl">Software Developer, 22 Years</p>
       </div>
     </section>
   );

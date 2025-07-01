@@ -12,9 +12,15 @@ const Experience = () => {
       description: "Database management",
     },
     {
+      title: "Freelance Developer",
+      company: "Amanecer Software",
+      period: "Present",
+      description: "Fullstack Developer",
+    },
+    {
       title: "English Tutor",
       period: "2023 - 2024",
-      description: "For kids and teens",
+      description: "Kids, teens and adults",
     },
   ];
 
